@@ -1,0 +1,233 @@
+
+
+body {
+    width:1100px;
+    height:790px;
+    background: linear-gradient(-20deg, rgba(255,255,255,0.2), rgba(255,255,255,1.0));
+    background-color: #cccccc;
+    transition: background-color 0.5s ease-in;
+}
+
+#impress {
+    /*background-color: blue;*/
+}
+
+table {
+    /*border-collapse: single;*/
+    border-spacing: 0px 0px;
+    /*margin: 10px;*/
+} 
+
+p {
+    margin: 5px;
+}
+
+tr, th,td {
+    height: 5px;
+}
+
+.impress-on-questions-lsw,
+.impress-on-selection-rules,
+.impress-on-universality,
+.impress-on-intro-lsw, 
+.impress-on-ostwald-ripening
+{
+    background-color: #cccccc;
+}
+
+.impress-on-intro-bd
+{
+    background-color: #cccccc;
+}
+
+.emph {
+    color: #113366;
+}
+
+.remark {
+    color: #545454;
+}
+
+h1 {
+    font-size: 150%;
+    position: relative;
+    text-align: center;
+    color: #3F3F3F;
+}
+
+img.ripening-svg {
+    display: block;
+    margin: 0 auto;
+}
+
+img.bd-intro {
+    float: left;
+    /*display: block;*/
+    /*margin: 0 auto;*/
+}
+
+.formula { color: #303030 }
+
+.importantformula { color: #ab5620 }
+
+.rcritmean { position: absolute; bottom: 153px; right: 100px; color: #aa3200 }
+
+
+.ripening-svg { width: 800px; height: 320px; transition: width 1s; display: block; margin: 0 auto; }
+
+.author { display:table; margin: auto; font-size: 120%; padding: 30pt; color: #113366}
+
+.date   { display:table; margin: auto; font-size: 120%; padding: 30pt; color: #116633 }
+.affiliation { display:table; margin: auto; font-size: 90%; }
+
+.active-topic-lsw {
+    position: absolute;
+    right: 0px;
+    top: -60px;
+    position-anchor: 100% 50%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #113366;
+}
+
+.active-topic-bd {
+    position: absolute;
+    right: 0px;
+    top: -60px;
+    position-anchor: 100% 50%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #116633;
+}
+
+.active-topic-ana {
+    position: absolute;
+    right: 0px;
+    top: -60px;
+    position-anchor: 100% 50%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #442277;
+}
+
+.active-title {
+    position: absolute;
+    left: 0px;
+    top: -60px;
+    position-anchor: 0% 50%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #bb7700;
+}
+
+.lswcolor {
+    color: #113366;
+}
+
+.bdcolor {
+    color: #116633;
+}
+
+.anacolor {
+    color: #442277;
+}
+
+.ana-overview-list {
+    position:relative;
+    top:100px;
+    margin:auto;
+}
+
+.step {
+    width:1000px;
+    height:700px;
+    top:68px;
+    font-size:29px;
+}
+
+.references {
+    font-size:22px;
+    vertical-align:top;
+}
+
+li {
+    margin-bottom:31px;
+}
+
+
+.cont-table { position:relative; left:0px; padding:8px; background:rgba(100,100,100, 0.1); }
+.scaling-param-def { position:absolute; right: 20px; top: 10px }
+
+
+.table-recap { position:relative; margin:auto; padding:15px; background:rgba(200,130,50, 0.1) }
+
+.case-a-table {position:relative; margin:auto; }
+
+.crossover-vid { position:relative; margin:auto; top:0px; width: 580px; }
+
+.invariant-vid { position:relative; margin:auto; top:0px; width: 800px; }
+.invariant-vid { position:relative; margin:auto; top:0px; width: 580px; }
+
+
+
+.intro-video { position:relative; margin:auto; display:block; }
+
+.cont-formulas { padding: 60px 0px; }
+.cont-limits-table { position:relative; margin:auto; padding:15px; background:rgba(255,205,20, 0.2) }
+.characteristics-table { position:relative; top:30px; margin:auto; padding:15px 15px; background:rgba(205,205,205, 0.2) }
+
+
+.todisplay { position:relative; margin:auto; padding:20px 300px; height:80px }
+
+.lsw-solution-svg { }
+
+.polynomial-svg { position:relative; margin:auto; padding:20px; display:block; }
+
+.formula-polynomial { position: relative; margin:auto; left:375px; top:20px; }
+
+
+.legend-lsw-cdf-svg-1 { position:absolute; right:150px; top: 250px; font-size:23px }
+.legend-lsw-cdf-svg-2 { position:absolute; right:10px; top: 350px; font-size:23px }
+
+
+.cold { color: #055522; }
+.cnew { color: #052255; }
+
+.cont-limits-cases-table { position:relative; padding: 30px 0px; }
+
+
+.lsw-cdf-different-ps-svg { position:relative; left:100px; top:-40px; }
+
+/*.bd-sim-1-svg { position:absolute; left:20px; top: 100px; }*/
+/*.bd-sim-2-svg { position:absolute; left:20px; top: 330px; }*/
+/*.weak-conv-svg{ position:absolute; left:550px; top: 200px; }*/
+
+
+/*.step {*/
+  /*opacity: 0.3;*/
+  /*transition: opacity 0.5s;*/
+/*}*/
+
+/*.step.active {*/
+  /*opacity: 1*/
+/*}*/
+
+.evap-cycle-svg { position:relative; padding:45px; width:530px; margin:auto; display:block; }
+
+
+
+/*.nanocrystal-jpg { position:relative; height: 200px; padding: 50px; top:-50px; left:130px }*/
+/*.cloud-jpg {position:relative;  height: 200px; padding:50px; top:-50px; left:210px }*/
+.no-influx-crystal-svg {position:relative; height: 200px; padding: 50px; top:-50px; left:130px;} 
+.influx-crystal-svg {position:relative; height: 200px; padding: 50px; top:-50px; left:130px;} 
+
+
+
+.a-l-at-arrow { position: absolute; top:7px; right:280px; }
+.b-l-at-arrow { position: absolute; top:58px; right:275px }
+
+.a-l-at-arrow2 { position: absolute; top:28px; right:140px; }
+.b-l-at-arrow2 { position: absolute; top:82px; right:136px }
+
+
+

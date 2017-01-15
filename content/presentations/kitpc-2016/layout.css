@@ -1,0 +1,70 @@
+
+
+body {
+    width:1024px;
+    background: linear-gradient(-20deg, #CCCCCC, #FFFFFF);
+}
+
+/*.impress-on-intro-lsw {*/
+    /*background: linear-gradient(-20deg, #99BBFF, #FFFFFF);*/
+/*}*/
+
+h1 {
+    font-size: 150%;
+    position: relative;
+    text-align: center;
+    color: #3F3F3F;
+}
+
+
+.author { display:table; margin: auto; font-size: 120%; padding: 20pt; color: #113366}
+
+.date   { display:table; margin: auto; font-size: 120%; padding: 20pt; color: #116633 }
+.affiliation { display:table; margin: auto; font-size: 90%; }
+
+.active-topic {
+    position: absolute;
+    right: 0px;
+    top: -340px;
+    position-anchor: 100% 50%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #113366;
+}
+
+.active-title {
+    position: absolute;
+    left: 0px;
+    top: -340px;
+    position-anchor: 0% 50%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #bb7700;
+}
+
+.lswcolor {
+    color: #113366;
+}
+
+.bdcolor {
+    color: #116633;
+}
+
+
+.step {
+    width:1018px;
+    font-size:30px;
+}
+
+li {
+    margin-bottom:25px;
+}
+
+/*.step {*/
+  /*opacity: 0.3;*/
+  /*transition: opacity 0.5s;*/
+/*}*/
+
+/*.step.active {*/
+  /*opacity: 1*/
+/*}*/
