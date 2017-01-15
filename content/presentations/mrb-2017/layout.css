@@ -1,0 +1,120 @@
+
+
+body {
+    width:1100px;
+    height:790px;
+    background: linear-gradient(-20deg, rgba(255,255,255,0.2), rgba(255,255,255,1.0));
+    background-color: #cccccc;
+    transition: background-color 0.5s ease-in;
+}
+
+
+table {
+    /*border-collapse: single;*/
+    border-spacing: 0px 0px;
+    /*margin: 10px;*/
+} 
+
+p {
+    margin: 5px;
+}
+
+tr, th,td {
+    height: 5px;
+}
+
+.emph {
+    color: #113366;
+}
+
+.remark {
+    color: #545454;
+}
+
+h1 {
+    font-size: 150%;
+    position: relative;
+    text-align: center;
+    color: #3F3F3F;
+}
+
+.author { display:table; margin: auto; font-size: 120%; padding: 30pt; color: #113366}
+
+.date   { display:table; margin: auto; font-size: 120%; padding: 30pt; color: #116633 }
+
+.affiliation { display:table; margin: auto; font-size: 90%; }
+
+.step {
+    width:1000px;
+    height:700px;
+    top:68px;
+    font-size:29px;
+}
+
+.references {
+    font-size:22px;
+    vertical-align:top;
+}
+
+li {
+    margin-bottom:31px;
+}
+
+
+.cont-table { position:relative; left:0px; padding:8px; background:rgba(100,100,100, 0.1); }
+.scaling-param-def { position:absolute; right: 20px; top: 10px }
+
+
+
+.pt {
+    color: rgba(0, 0, 0, 0)
+}
+
+.bg {
+    color: #3F3F3F;
+    font-weight: bold
+}
+
+.active-topic-tools {
+    position: absolute;
+    right: 0px;
+    top: -60px;
+    position-anchor: 100% 50%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #113366;
+}
+
+.toolcolor { color: #113366; }
+
+.physicscolor { color: #116633; }
+
+.limitcolor { color: #442277; }
+
+.active-title {
+    position: absolute;
+    left: 0px;
+    top: -60px;
+    position-anchor: 0% 50%;
+    font-size: 80%;
+    font-weight: bold;
+    color: #bb7700;
+}
+
+.quote {
+    text-align: left;
+    margin-left: 220px;
+    display: block;
+    font-size: 100%;
+    font-style: italic;
+    color: #3F3F3F
+}
+
+.quoteauthor {
+    text-align: right;
+    margin-left: 150px;
+    display: block;
+    font-size: 100%;
+    font-style: italic;
+    color: #3F3F3F
+
